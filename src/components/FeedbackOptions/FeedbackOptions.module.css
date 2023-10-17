@@ -1,0 +1,22 @@
+.container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.btn {
+  cursor: pointer;
+  border-radius: 4px;
+  border: inherit;
+  padding: 12px 16px;
+  margin: 8px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+.btn:hover,
+.hero-btn:focus,
+.btn:active {
+  background-color: rgb(191, 186, 202);
+}
